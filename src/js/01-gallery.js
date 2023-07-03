@@ -4,8 +4,6 @@ import SimpleLightbox from 'simplelightbox';
 import "simplelightbox/dist/simple-lightbox.min.css";
 // Change code below this line
 
-console.log(galleryItems);
-
 const listElLightBox = document.querySelector('.gallery');
 listElLightBox.insertAdjacentHTML('afterbegin', addImg(galleryItems));
 listElLightBox.style.listStyle = 'none';
